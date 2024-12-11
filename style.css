@@ -1,0 +1,51 @@
+form{
+    width: 30%;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: all 0.9%;
+}
+form:hover{
+    background-color: aqua;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: all 1%;
+}
+input:hover{
+    padding: 7px;
+    background-color: bisque;
+}
+input[type="radio"]{
+    margin-right: 20px;
+    width: auto;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: blanchedalmond;
+}
+@keyframes form{
+    from {background-color: cyan;}
+    To {background-color: rgb(6, 82, 82);}
+}
+div{ 
+  
+    animation-name: form;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
